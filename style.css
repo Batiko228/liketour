@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus, :active{ outline: none;}
+a:focus,a:active{ outline: none;}
+
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{ text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.body{
+    font-family:sans-serif;
+}
+
+.header{
+    background: url(pexels-maria-isabella-bernotti-1049298.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 2000px;
+    min-width: 500px;
+}
+   
+.logo{
+    margin-top: -955px;
+    padding: 20px;
+    height: 130px;
+    border-radius: 0px 0px 10px 10px ;
+    background-color: rgba(238, 238, 238, 0.774);
+    font-size: 25px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-weight: 900;
+    position: sticky;
+    top: 2px;
+    
+}
+#logo1{
+   max-width: 500px;
+   padding-right: 200px;
+}
+
+.menu{
+    font-size: 25px;
+    word-spacing: 15px;
+}
+.color-rose {
+    color:#ff3131;
+}
+.numb{
+    font-size: 18px;
+    font-style: italic;
+}
+.m_avia{
+    color: #000;
+}
+.m_tur{
+    color: #000;
+
+}
+.m_eks{
+    color: #000;
+}
+.m_strah{
+    color: #000;
+}
+
+.welcome{
+    color: aliceblue;
+    font-size: 50px;
+    background-color: #ff313167;
+    padding-left: 100px;
+    padding-right: 50px;
+
+}
+
+#liketour{
+    color: rgb(255, 255, 255);
+    border: 900px;
+    max-width: 14000px;
+    max-height: 1200px;
+    font-size: 60px;
+    font-weight: 800px;
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 80px;
+   
+
+}
+#avia{
+    padding: 20px;
+    word-spacing:120px;
+    background: url(airplane-7429725.jpg);
+    background-size: cover;
+    height: 100vh;
+    max-width: 2000px;
+    min-width: 500px;
+    margin-top: 700px;
+    font-size: 25px;
+    
+
+}
+#airmold{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+#flyone{
+    max-width: 350px;
+    max-height: 350px;
+}
+#wizz{
+    max-width: 350px;
+    max-height: 350px;
+}
+#turk{
+    max-width: 350px;
+    max-height: 350px;
+}
+#avia_logo{
+    font-family:fantasy;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 340px;
+    font-style: 100px;
+    padding-top: 100px;
+}
